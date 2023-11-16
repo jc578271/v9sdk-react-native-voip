@@ -1,0 +1,47 @@
+{
+  "name": "@v9sdk/react-native-voip",
+  "version": "1.1.7",
+  "description": "V9 VOIP SDK for React Native",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "postinstall": "bash libs.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/htt.bkap/v9sdk-react-native-voip.git"
+  },
+  "nativePackage": true,
+  "keywords": [
+    "V9 voip sdk",
+    "voip sdk",
+    "v9 sdk",
+    "v9 company",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "voip sip",
+    "pjsip",
+    "sip",
+    "sips",
+    "jssip",
+    "webrtc"
+  ],
+  "author": {
+    "name": "Hoangdx @ V9 Team",
+    "email": "hoangdx.bkap@gmail.com"
+  },
+  "license": "ISC",
+  "readme": "V9 VOIP SDK",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://gitlab.com/htt.bkap/v9sdk-react-native-voip/issues"
+  },
+  "homepage": "https://gitlab.com/htt.bkap/v9sdk-react-native-voip#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "typescript": "^4.8.4"
+  }
+}

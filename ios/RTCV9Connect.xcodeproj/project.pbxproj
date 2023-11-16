@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BE8821291278DA00BF915F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE8820291278DA00BF915F /* AVFoundation.framework */; };
+		A5BE8823291278DF00BF915F /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE8822291278DF00BF915F /* CallKit.framework */; };
+		A5BE88282912792E00BF915F /* V9SipPreviewVideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE8806291262C800BF915F /* V9SipPreviewVideoViewManager.m */; };
+		A5BE88292912793600BF915F /* V9SipMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE8803291262A300BF915F /* V9SipMessage.m */; };
+		A5BE882A2912794000BF915F /* V9SipCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE87FA291261F500BF915F /* V9SipCall.m */; };
+		A5BE882B2912794400BF915F /* V9SipEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE87FD2912623E00BF915F /* V9SipEndpoint.m */; };
+		A5BE882C2912794700BF915F /* RTCV9Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE87EB291260BC00BF915F /* RTCV9Connect.m */; };
+		A5BE882D2912795000BF915F /* V9SipAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE87F72912615400BF915F /* V9SipAccount.m */; };
+		A5BE882E2912795500BF915F /* V9SipRemoteVideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE8809291262EF00BF915F /* V9SipRemoteVideoViewManager.m */; };
+		A5BE882F2912795E00BF915F /* V9SipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE880C2912631300BF915F /* V9SipUtil.m */; };
+		A5BE88302912796200BF915F /* V9SipVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE880F2912633500BF915F /* V9SipVideo.m */; };
+		A5BE88492913698200BF915F /* V9SIPServer in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE88482913698200BF915F /* V9SIPServer */; };
+		A5BE884B2913698B00BF915F /* V9SIPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE884A2913698B00BF915F /* V9SIPServer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5BE87E5291260BC00BF915F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5BE87E7291260BC00BF915F /* libRTCV9Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRTCV9Connect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE87EA291260BC00BF915F /* RTCV9Connect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTCV9Connect.h; sourceTree = "<group>"; };
+		A5BE87EB291260BC00BF915F /* RTCV9Connect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTCV9Connect.m; sourceTree = "<group>"; };
+		A5BE87F62912615400BF915F /* V9SipAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipAccount.h; sourceTree = "<group>"; };
+		A5BE87F72912615400BF915F /* V9SipAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipAccount.m; sourceTree = "<group>"; };
+		A5BE87F9291261F500BF915F /* V9SipCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipCall.h; sourceTree = "<group>"; };
+		A5BE87FA291261F500BF915F /* V9SipCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipCall.m; sourceTree = "<group>"; };
+		A5BE87FC2912623E00BF915F /* V9SipEndpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipEndpoint.h; sourceTree = "<group>"; };
+		A5BE87FD2912623E00BF915F /* V9SipEndpoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipEndpoint.m; sourceTree = "<group>"; };
+		A5BE87FF2912627F00BF915F /* V9SipLocalVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipLocalVideoViewManager.h; sourceTree = "<group>"; };
+		A5BE88002912627F00BF915F /* V9SipLocalVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipLocalVideoViewManager.m; sourceTree = "<group>"; };
+		A5BE8802291262A300BF915F /* V9SipMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipMessage.h; sourceTree = "<group>"; };
+		A5BE8803291262A300BF915F /* V9SipMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipMessage.m; sourceTree = "<group>"; };
+		A5BE8805291262C800BF915F /* V9SipPreviewVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipPreviewVideoViewManager.h; sourceTree = "<group>"; };
+		A5BE8806291262C800BF915F /* V9SipPreviewVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipPreviewVideoViewManager.m; sourceTree = "<group>"; };
+		A5BE8808291262EF00BF915F /* V9SipRemoteVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipRemoteVideoViewManager.h; sourceTree = "<group>"; };
+		A5BE8809291262EF00BF915F /* V9SipRemoteVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipRemoteVideoViewManager.m; sourceTree = "<group>"; };
+		A5BE880B2912631300BF915F /* V9SipUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipUtil.h; sourceTree = "<group>"; };
+		A5BE880C2912631300BF915F /* V9SipUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipUtil.m; sourceTree = "<group>"; };
+		A5BE880E2912633500BF915F /* V9SipVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipVideo.h; sourceTree = "<group>"; };
+		A5BE880F2912633500BF915F /* V9SipVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipVideo.m; sourceTree = "<group>"; };
+		A5BE88112912635A00BF915F /* V9SipVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V9SipVideoViewManager.h; sourceTree = "<group>"; };
+		A5BE88122912635A00BF915F /* V9SipVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V9SipVideoViewManager.m; sourceTree = "<group>"; };
+		A5BE8820291278DA00BF915F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5BE8822291278DF00BF915F /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CallKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5BE88482913698200BF915F /* V9SIPServer */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = V9SIPServer; path = V9SIPServer.framework/V9SIPServer; sourceTree = "<group>"; };
+		A5BE884A2913698B00BF915F /* V9SIPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V9SIPServer.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BE87E4291260BC00BF915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE8821291278DA00BF915F /* AVFoundation.framework in Frameworks */,
+				A5BE8823291278DF00BF915F /* CallKit.framework in Frameworks */,
+				A5BE884B2913698B00BF915F /* V9SIPServer.framework in Frameworks */,
+				A5BE88492913698200BF915F /* V9SIPServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BE87DE291260BC00BF915F = {
+			isa = PBXGroup;
+			children = (
+				A5BE87E9291260BC00BF915F /* RTCV9Connect */,
+				A5BE87E8291260BC00BF915F /* Products */,
+				A5BE87F3291260E400BF915F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BE87E8291260BC00BF915F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE87E7291260BC00BF915F /* libRTCV9Connect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BE87E9291260BC00BF915F /* RTCV9Connect */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE87EA291260BC00BF915F /* RTCV9Connect.h */,
+				A5BE87EB291260BC00BF915F /* RTCV9Connect.m */,
+				A5BE87F62912615400BF915F /* V9SipAccount.h */,
+				A5BE87F72912615400BF915F /* V9SipAccount.m */,
+				A5BE87F9291261F500BF915F /* V9SipCall.h */,
+				A5BE87FA291261F500BF915F /* V9SipCall.m */,
+				A5BE87FC2912623E00BF915F /* V9SipEndpoint.h */,
+				A5BE87FD2912623E00BF915F /* V9SipEndpoint.m */,
+				A5BE87FF2912627F00BF915F /* V9SipLocalVideoViewManager.h */,
+				A5BE88002912627F00BF915F /* V9SipLocalVideoViewManager.m */,
+				A5BE8802291262A300BF915F /* V9SipMessage.h */,
+				A5BE8803291262A300BF915F /* V9SipMessage.m */,
+				A5BE8805291262C800BF915F /* V9SipPreviewVideoViewManager.h */,
+				A5BE8806291262C800BF915F /* V9SipPreviewVideoViewManager.m */,
+				A5BE8808291262EF00BF915F /* V9SipRemoteVideoViewManager.h */,
+				A5BE8809291262EF00BF915F /* V9SipRemoteVideoViewManager.m */,
+				A5BE880B2912631300BF915F /* V9SipUtil.h */,
+				A5BE880C2912631300BF915F /* V9SipUtil.m */,
+				A5BE880E2912633500BF915F /* V9SipVideo.h */,
+				A5BE880F2912633500BF915F /* V9SipVideo.m */,
+				A5BE88112912635A00BF915F /* V9SipVideoViewManager.h */,
+				A5BE88122912635A00BF915F /* V9SipVideoViewManager.m */,
+			);
+			path = RTCV9Connect;
+			sourceTree = "<group>";
+		};
+		A5BE87F3291260E400BF915F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE884A2913698B00BF915F /* V9SIPServer.framework */,
+				A5BE88482913698200BF915F /* V9SIPServer */,
+				A5BE8822291278DF00BF915F /* CallKit.framework */,
+				A5BE8820291278DA00BF915F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BE87E6291260BC00BF915F /* RTCV9Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE87F0291260BC00BF915F /* Build configuration list for PBXNativeTarget "RTCV9Connect" */;
+			buildPhases = (
+				A5BE87E3291260BC00BF915F /* Sources */,
+				A5BE87E4291260BC00BF915F /* Frameworks */,
+				A5BE87E5291260BC00BF915F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTCV9Connect;
+			productName = RTCV9Connect;
+			productReference = A5BE87E7291260BC00BF915F /* libRTCV9Connect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BE87DF291260BC00BF915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A5BE87E6291260BC00BF915F = {
+						CreatedOnToolsVersion = 13.3;
+						DevelopmentTeam = SMWQA8YZX4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5BE87E2291260BC00BF915F /* Build configuration list for PBXProject "RTCV9Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"en-GB",
+			);
+			mainGroup = A5BE87DE291260BC00BF915F;
+			productRefGroup = A5BE87E8291260BC00BF915F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BE87E6291260BC00BF915F /* RTCV9Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BE87E3291260BC00BF915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE88302912796200BF915F /* V9SipVideo.m in Sources */,
+				A5BE882F2912795E00BF915F /* V9SipUtil.m in Sources */,
+				A5BE882E2912795500BF915F /* V9SipRemoteVideoViewManager.m in Sources */,
+				A5BE882D2912795000BF915F /* V9SipAccount.m in Sources */,
+				A5BE882C2912794700BF915F /* RTCV9Connect.m in Sources */,
+				A5BE882B2912794400BF915F /* V9SipEndpoint.m in Sources */,
+				A5BE882A2912794000BF915F /* V9SipCall.m in Sources */,
+				A5BE88292912793600BF915F /* V9SipMessage.m in Sources */,
+				A5BE88282912792E00BF915F /* V9SipPreviewVideoViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5BE87EE291260BC00BF915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5BE87EF291260BC00BF915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BE87F1291260BC00BF915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMWQA8YZX4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					PJ_AUTOCONF,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React",
+					"\"$(SRCROOT)/V9SIPServer/Headers\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/V9SIPServer.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5BE87F2291260BC00BF915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SMWQA8YZX4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = PJ_AUTOCONF;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React",
+					"\"$(SRCROOT)/V9SIPServer/Headers\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/V9SIPServer.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BE87E2291260BC00BF915F /* Build configuration list for PBXProject "RTCV9Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE87EE291260BC00BF915F /* Debug */,
+				A5BE87EF291260BC00BF915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5BE87F0291260BC00BF915F /* Build configuration list for PBXNativeTarget "RTCV9Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE87F1291260BC00BF915F /* Debug */,
+				A5BE87F2291260BC00BF915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BE87DF291260BC00BF915F /* Project object */;
+}
